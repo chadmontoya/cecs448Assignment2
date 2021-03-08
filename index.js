@@ -12,3 +12,13 @@ function removeActive() {
       imgPanel.classList.remove('active'); // Remove the active class from each image panel
   });
 }
+
+$(document).ready(function() {
+  $("#autoWidth").lightSlider({
+    autoWidth: true,
+    loop: true,
+    onSliderLoad: function() {
+      $('#autoWidth').removeClass('cS-hidden');
+    }
+  });
+});
