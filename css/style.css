@@ -28,10 +28,12 @@ h1, h2 {
     font-weight: 300;
     line-height: 1.2;
     margin: 10px 0;
+    color: #fff;
 }
 
 p {
     margin: 10px 0;
+    color: #fff;
 }
 
 img {
@@ -189,6 +191,20 @@ img {
   /*************************************
   -------------Hero---------------------
   **************************************/
+  /* The hero image */
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./background.jpg");
+  
+    /* Set a specific height */
+    height: 50%;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
 .hero-wrapper {
     width: 100%;
     height: 70vh;
@@ -201,13 +217,13 @@ img {
     font-size: 20px;
     font-weight: 500;
     line-height: 27px;
-    color: #292423;
+    color: #fff;
     margin-bottom: 10px;
   }
   .col-left h1 {
     font-size: 40px;
     font-weight: 800;
-    color: #292423;
+    color: #fff;
     line-height: 41px;
     margin-bottom: 15px;
   }
@@ -216,7 +232,7 @@ img {
     font-weight: normal;
     font-size: 16px;
     line-height: 145%;
-    color: #292423;
+    color: #fff;
     margin-bottom: 20px;
     letter-spacing: 0.01em;
   }
@@ -225,7 +241,7 @@ img {
     justify-content: space-between;
     align-items: center;
     padding: 13px 25px;
-    background: #292423;
+    background: #fff;
     width: 190px;
     border-radius: 50px;
     color: #fff;
@@ -239,7 +255,7 @@ img {
   }
   a.btn-main:hover {
     background: #fff;
-    color: #292423;
+    color: #fff;
   }
   a.btn-main span {
     display: inline-block;
