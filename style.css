@@ -1,0 +1,87 @@
+html {
+    scroll-behavior: smooth;
+}
+#section1 {
+    height: 600px;
+    background-color: white;
+}
+
+#section2 {
+    height: 600px;
+    background-color: lightblue;
+}
+
+#section3 {
+    height: 600px;
+    background-color: blue;
+}
+
+#section4 {
+    height: 600px;
+    background-color: green;
+}
+
+#section5 {
+    height: 600px;
+    background-color: red;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #111;
+}
+
+.container {
+    margin-left:auto;
+    margin-right:auto;
+    width: 70%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 0;
+}
+
+.expand {
+    display: flex;
+    width: 80%;
+}
+
+.panel{
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    border-radius: 40px;
+    flex: .5;
+    margin: 10px;
+    position: relative;
+    transition: flex 0.7s ease-in;
+}
+
+.panel.active{
+    flex:5;
+}
