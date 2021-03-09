@@ -282,7 +282,7 @@ a:hover {
 }
 
 .left-col {
-  width: 80%;
+  width: 100%;
 }
 
 .left-col span {
@@ -303,7 +303,7 @@ a:hover {
 }
 
 .left-col p {
-  width: 70%;
+  width: 90%;
   margin-bottom: 40px;
 }
 
