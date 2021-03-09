@@ -65,7 +65,7 @@ a:hover {
 }
 
 
-  /*--------------------------------------------------------------
+/*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Desktop Navigation */
@@ -412,6 +412,7 @@ a:hover {
 .voice-actors-container {
   width: 100%;
   height: 100vh;
+  padding: 150px;
   justify-content: center;
   align-items: center;
   display: flex;
