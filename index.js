@@ -13,8 +13,8 @@ function removeActive() {
   });
 }
 
-$(document).ready(function() {
-  $("#autoWidth").lightSlider({
+$(document).ready(function() { // Using the lightslider js library for our slider
+  $("#autoWidth").lightSlider({ // Initialize slider values
     autoWidth: true,
     loop: true,
     onSliderLoad: function() {

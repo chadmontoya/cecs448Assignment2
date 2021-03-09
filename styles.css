@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;700;800&display=swap");
 
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth; /* Smooth scroll */
 }
 
 * {
@@ -18,11 +18,6 @@ a {
 
 a:hover {
   text-decoration: none;
-}
-
-/* Page content */
-.content {
-  padding: 16px;
 }
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
@@ -184,28 +179,44 @@ a:hover {
 }
 /*end naviagation*/
 
-.about-content {
+/* Home Section */
+.home-container {
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/avatar/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  padding: 0 200px;
+}
+
+.home-content {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
   margin: auto;
   text-align: center;
   color: #fff
 }
 
-.about-content h1 {
+.home-content h1 {
   font-weight: bold;
   font-size: 64px;
 }
 
-.about-content p {
+.home-content p {
   font-weight: medium;
   font-size: 36px;
 }
+/* end home section */
 
-.home-container {
+/* About section */
+.about-container {
   width: 100%;
   padding: 0 125px;
 }
 
-.home-content {
+.about-content {
   width: 100%;
   height: 100vh;
   display: flex;
@@ -238,7 +249,7 @@ a:hover {
   margin-bottom: 40px;
 }
 
-.crew-btn {
+.avatar-btn {
   align-items: center;
   background:  #0563bb;
   color: white;
@@ -248,7 +259,7 @@ a:hover {
   transition: all 0.5s;
 }
 
-.crew-btn:hover {
+.avatar-btn:hover {
   background: white;
   color: black
 }
@@ -258,24 +269,9 @@ a:hover {
   width: 100%;
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
 }
+/* end of about section */
 
-.about-container {
-  width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/avatar/background.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
-  padding: 0 200px;
-}
-
-.about-content {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-}
-
-.sisters-container {
+.avatars-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -344,7 +340,7 @@ a:hover {
   opacity: 1; /* Show names when card is active */
 }
 
-.voice-actors-container {
+.elements-container {
   width: 100%;
   height: 100vh;
   padding: 150px;
@@ -353,7 +349,7 @@ a:hover {
   display: flex;
 }
 
-.voice-actors-container ul {
+.elements-container ul {
   list-style: none;
 }
 
