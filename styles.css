@@ -271,7 +271,7 @@ a:hover {
 /*end hero*/
 .home-container {
   width: 100%;
-  padding: 0 200px;
+  padding: 0 125px;
 }
 
 .home-content {
@@ -459,7 +459,7 @@ a:hover {
   }
 
   .home-content {
-    margin-top: 50px;
+    /* margin-top: 50px; */
     height: auto;
     flex-direction: column-reverse;
   }
