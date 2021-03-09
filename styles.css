@@ -385,17 +385,17 @@ a:hover {
     padding-top: 1px;
   }
 
-  .home-container {
+  .about-container {
     padding: 0 20px;
   }
 
-  .home-content {
-    /* margin-top: 50px; */
+  .about-content {
     height: auto;
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 
-  .right-col {
+  .left-col {
     margin-top: 75px;
+    margin-bottom: 50px;
   }
 }
