@@ -222,7 +222,7 @@ a:hover {
   font-weight: 500;
   line-height: 25px;
   margin-bottom: 20px;
-  color:rgb(255, 75, 201)
+  color: #0563bb;
 }
 
 .left-col h1 {
@@ -230,7 +230,7 @@ a:hover {
   font-weight: 800;
   line-height: 40px;
   margin-bottom: 25px;
-  color:rgb(245, 151, 217);
+  color:#0563bb;
 }
 
 .left-col p {
@@ -240,7 +240,7 @@ a:hover {
 
 .crew-btn {
   align-items: center;
-  background:  rgb(245, 151, 217);
+  background:  #0563bb;
   color: white;
   padding: 13px 30px;
   border-radius: 40px;
@@ -264,6 +264,7 @@ a:hover {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/avatar/background.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
+  background-position: center;
   padding: 0 200px;
 }
 
@@ -329,7 +330,7 @@ a:hover {
 }
 
 .img-panel h1 {
-  color: rgb(245, 151, 217);
+  color: #fff;
   position: absolute;
   bottom: 20px;
   left: 20px;
