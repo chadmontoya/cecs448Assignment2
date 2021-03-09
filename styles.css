@@ -199,12 +199,12 @@ a:hover {
   color: #fff
 }
 
-.home-content h1 {
+.title h1 {
   font-weight: bold;
   font-size: 64px;
 }
 
-.home-content p {
+.title p {
   font-weight: medium;
   font-size: 36px;
 }
