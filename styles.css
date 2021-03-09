@@ -184,9 +184,22 @@ a:hover {
 }
 /*end naviagation*/
 
+.about-content {
+  margin: auto;
+  text-align: center;
+  color: #fff
+}
 
+.about-content h1 {
+  font-weight: bold;
+  font-size: 64px;
+}
 
-/*end hero*/
+.about-content p {
+  font-weight: medium;
+  font-size: 36px;
+}
+
 .home-container {
   width: 100%;
   padding: 0 125px;
