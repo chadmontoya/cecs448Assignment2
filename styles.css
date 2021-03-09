@@ -20,22 +20,6 @@ a:hover {
   text-decoration: none;
 }
 
-/* Style the navbar */
-#navbar {
-  overflow: hidden;
-  background-color: #333;
-}
-
-/* Navbar links */
-#navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
-}
-
 /* Page content */
 .content {
   padding: 16px;
@@ -53,57 +37,50 @@ a:hover {
   padding-top: 60px;
 }
 
-/* .navbar-wrapper {
-  width: 100%;
-  padding: 20px 50px;
+/*Header*/
+#header {
   position: fixed;
-  background-color: rgb(245, 151, 217);
-  z-index: 1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 9997;
+  transition: all 0.5s;
+  padding: 15px;
+  overflow-y: auto;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+@media (max-width: 992px) {
+  #header {
+    width: 300px;
+    background: #fff;
+    border-right: 1px solid #e6e9ec;
+    left: -300px;
+  }
 }
 
-.nav-elements ul {
-  padding: 0;
-  margin: 0;
+@media (min-width: 992px) {
+  #main {
+    margin-left: 100px;
+  }
 }
 
-.nav-elements ul li {
-  list-style: none;
-  display: inline-block;
-  margin: 0 25px;
-}
 
-.nav-elements ul li:hover {
-  background-color: rgb(253, 180, 204);
-  border-radius: 10px;
-  transition: 0.5s;
-} */
-
-/*
-------------------------------------
-------------nav---------------------
-*/
   /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Desktop Navigation */
-.nav-menu * {
+.navbar * {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.nav-menu > ul > li {
+.navbar > ul > li {
   position: relative;
   white-space: nowrap;
 }
 
-.nav-menu a {
+.navbar a {
   display: flex;
   align-items: center;
   color: #45505b;
@@ -119,40 +96,40 @@ nav {
   transition: 0.3s;
 }
 
-.nav-menu a i {
+.navbar a i {
   font-size: 20px;
 }
 
-.nav-menu a span {
+.navbar a span {
   padding: 0 5px 0 7px;
   color: #45505b;
 }
 
 @media (min-width: 992px) {
-  .nav-menu a {
+  .navbar a {
     width: 56px;
   }
-  .nav-menu a span {
+  .navbar a span {
     display: none;
     color: #fff;
   }
 }
 
-.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+.navbar a:hover, .navbar .active > a, .navbar li:hover > a {
   color: #fff;
   background: #0563bb;
 }
 
-.nav-menu a:hover span, .nav-menu .active > a span, .nav-menu li:hover > a span {
+.navbar a:hover span, .navbar .active > a span, .navbar li:hover > a span {
   color: #fff;
 }
 
-.nav-menu a:hover, .nav-menu li:hover > a {
+.navbar a:hover, .navbar li:hover > a {
   width: 100%;
   color: #fff;
 }
 
-.nav-menu a:hover span, .nav-menu li:hover > a span {
+.navbar a:hover span, .navbar li:hover > a span {
   display: block;
 }
 
@@ -188,21 +165,21 @@ nav {
   color: #0563bb;
 }
 
-.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+.navbar a:hover, .navbar .active > a, .navbar li:hover > a {
   color: #fff;
   background: #0563bb;
 }
 
-.nav-menu a:hover span, .nav-menu .active > a span, .nav-menu li:hover > a span {
+.navbar a:hover span, .navbar .active > a span, .navbar li:hover > a span {
   color: #fff;
 }
 
-.nav-menu a:hover, .nav-menu li:hover > a {
+.navbar a:hover, .navbar li:hover > a {
   width: 100%;
   color: #fff;
 }
 
-.nav-menu a:hover span, .nav-menu li:hover > a span {
+.navbar a:hover span, .navbar li:hover > a span {
   display: block;
 }
 /*end naviagation*/
