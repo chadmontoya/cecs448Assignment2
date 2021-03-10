@@ -196,6 +196,7 @@ a:hover {
   align-items: center;
   margin: auto;
   text-align: center;
+  justify-content: center;
   color: #fff
 }
 
