@@ -41,10 +41,10 @@ function myFunction() {
   }
 }
 
-$(document).on('click', '.mobile-nav-toggle', function(e) {
+function openNav() {
   $('body').toggleClass('mobile-nav-active');
   $('.mobile-nav-toggle i').toggleClass('icofont-navigation-menu icofont-close');
-});
+}
 
 $(document).click(function(e) {
   var container = $(".mobile-nav-toggle");
