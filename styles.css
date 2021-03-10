@@ -403,6 +403,14 @@ a:hover {
     margin-bottom: 50px;
   }
 
+  a {
+    font-size: 35px;
+  }
+
+  .left-col span {
+    font-size: 30px;
+  }
+
   .left-col p{
     width: 100%;
     font-size: 30px;
@@ -411,5 +419,15 @@ a:hover {
 
   .elements-container {
     padding: 0px; 
+    height: 40vh;
   }
+
+  .avatars-container {
+    height: 80vh;
+  }
+
+  .img-panel-container {
+    width: 100%;
+  }
+
 }
